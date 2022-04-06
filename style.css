@@ -18,7 +18,7 @@ body{
     display: flex;
     justify-content:space-between;
 }
-.banner .container.login{
+.banner .container.login ,.container.cadastro{
     justify-content: center;
 }
 .agora{
@@ -107,5 +107,37 @@ form input{
     font-size: 18px;
     border: 0;
     cursor: pointer;
+
+}
+
+.imagens img{
+    width: 150px;   
+}
+.conteudo{
+    background-color: #e5e5e5;
+}
+.imagens{
+    margin-top: 62px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.imagens h2{
+    color:#e6005a;
+    margin-top: 0px;
+    
+}
+.imagens h2, p{
+    margin-top: 20px;
+}
+.imagens p{
+    text-align: center;
+    font-size: 22px;
+}
+.conteudo .container{
+ display: flex;
+    justify-content:space-between;
 
 }
